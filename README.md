@@ -1,6 +1,6 @@
-# daradege
+# hamekare
 
-A lightweight Python wrapper for [Daradege.ir](https://daradege.ir), providing access to a variety of AI-powered tools such as:
+A lightweight Python wrapper By Amirabolfazle, providing access to a variety of AI-powered tools such as:
 
 * Image generation
 * Logo and QR code creation
@@ -11,7 +11,7 @@ A lightweight Python wrapper for [Daradege.ir](https://daradege.ir), providing a
 ## 📦 Installation
 
 ```bash
-pip install daradege
+pip install hamekare
 ```
 
 ---
@@ -21,16 +21,16 @@ pip install daradege
 ### 🔼 Image & Logo Tools (`genp.py`)
 
 ```python
-from daradege import genp
+from hamekare import genp
 
 # Generate AI image
 genp.image("a futuristic city skyline at night")
 
 # Generate Persian logo
-genp.logo("daradege")
+genp.logo("hamekare")
 
 # Generate QR code
-genp.qr("https://daradege.ir")
+genp.qr("https://hamekare.ir")
 ```
 
 ---
@@ -38,7 +38,7 @@ genp.qr("https://daradege.ir")
 ### 🧠 Ai Chat (`ai.py`)
 
 ```python
-from daradege import ai
+from hamekare import ai
 
 #ask llama ai model to response your prompt!
 ai.llama('Hello')
