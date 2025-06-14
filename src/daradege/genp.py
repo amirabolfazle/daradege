@@ -1,5 +1,5 @@
-import src.img as img
-import src.req as req
+import img
+import req
 
 # genp.logo('Sunset')
 def logo(prompt):
