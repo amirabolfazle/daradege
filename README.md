@@ -39,12 +39,22 @@ genp.qr("https://daradege.ir")
 ```python
 from daradege import ai
 
+#ask llama ai model to response your prompt!
 ai.llama('Hello')
-ai.llama('Hello')
+
+#ask chatgpt ai model to response your prompt!
 ai.chatgpt('Hello')
+
+#ask deepseek ai model to response your prompt!
 ai.deepseek('Hello')
+
+#ask gemini ai model to response your prompt!
 ai.gemini('Hello')
+
+#ask llamqwena ai model to response your prompt!
 ai.qwen('Hello')
+
+#ask nemotron ai model to response your prompt!
 ai.nemotron('Hello')
 ```
 
