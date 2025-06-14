@@ -4,6 +4,7 @@ A lightweight Python wrapper for [Daradege.ir](https://daradege.ir), providing a
 
 * Image generation
 * Logo and QR code creation
+* Ai Response
 
 ---
 
